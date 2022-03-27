@@ -16,7 +16,8 @@ CREATE_TABLE_SQLS = [
         id int(11) NOT NULL AUTO_INCREMENT,
         name varchar(256) NOT NULL UNIQUE,
         downloads int(15) UNSIGNED NOT NULL DEFAULT 0,
-        version varchar(20) NOT NULL DEFAULT '0',
+        version varchar(20) DEFAULT NULL,
+        status int(2) UNSIGNED NOT NULL DEFAULT 0,
         PRIMARY KEY (id)
     )
     ENGINE = INNODB;

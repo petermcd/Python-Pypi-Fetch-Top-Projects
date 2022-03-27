@@ -19,6 +19,7 @@ from port which defaults to 3306. The file must reside in the working
 directory for the application.
 
 .. code-block:: shell
+
    JSON_KEY_PATH=path/to/file.json
    DATABASE_USERNAME=username
    DATABASE_PASSWORD=password
@@ -51,5 +52,6 @@ reduce CICD failures. To set this up the following commands can be
 carried out:
 
 .. code-block:: shell
+
    pip install pre-commit
    pre-commit install
