@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "open-university-345313",
+  "private_key_id": "8607987b0ff95abb135d9e9ef0813d41d05bdb03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDhz1vqEUWtOYYa\nsl5FVVasCsaozOao9Yg66iJNc88IfEWWj+BoVdY9uIouBUh2XcCXgZ9sSigYgOTj\nZHLlHbBD0c3gkFHSrFHZfsHKiiMfvLyzHoE604okaN4t1eUC/TL504PcVq9Iz6/w\nrN56E7QOAUPhV1lu3APV+AtblHPrGA+qceAOTgVqzAfL+W35sSyb+XKa5HbnPnRP\nJV580FvpITzm00JbibjXXB1kAmt/KkzRy+Xb/Oub/iGOjlgHIy5crTjpIkoBqFtF\nbFFJ/5gXfA5yyyCeE41b7FA1I/zOfBV4sjbxsycIvWCm1t8NIFqcDmI2HANlQp8P\nDi2IBExfAgMBAAECggEAb2caTRGlYu8wwoYCLUmLX4hXdxrTp0KvKYWuU7DRULni\nqQOlbkP+1OdwwICZvc/F/tkT2lyBiIk6oxbA+lkZx3PAEsyQmZOrM9at6+sXpgY6\nwFHJ5shLbGgSSOGwQLfDCO65rKBVjOHtxpq6jdafq5MjNo6eECvadpsPm2hTggUo\nviXDVSETy3Uotm3oKqlvUu/BdXrSYsXE06NdG089mVkUOAZmLEZBiYEVq/AQ/s3g\nHTiphUgEgAXcF8PbW3jiXzxFsra0tSvvmJB+BEGipp/DWzsn+sJAWajAk2hJfkgj\nQe5Z6VhA1el241OGIIawBVn68dA20NyV3KzasGLtLQKBgQD+1YGeuYCdrSM3hKiQ\nFGqnXXzEnpmjAdOne92aIN1RCZVCGMWElHNx5s5/WkIjNOsb1eHHnoE2YXQHtgOF\n5LSIKajDfF1KMJqGym+VdSEQJr42VckxqOdd2hGk1rCl7TZRO4DoRuR9n8o9y0pF\n6wZBddLACcvxyf4jsblS4HKmXQKBgQDi19srojHm0PGETKG2xggDmqoj3eTXK116\nTK9yoIWn4pPvvjWY/JBdtH0DMNzgtxvV2qpxG4okx/+so7xBFD7mDAJzuwh4iQZ5\n7OMVZhxjlooeKVjkZmwJiNY4xDbZRMMAQDxx4DUES9iDrmUk/dke+v6EpUNDyNa6\nf50PmTiZ6wKBgFkWTOUvVo5I29npz3/nE04FObwG8hDxb4vKmrLqMFTHM93SiSKL\nPzyfgqs045ApTNQDVpYRjHx1Xzne4KZrSM2dOrl0fayVB0B9/rpSI0fhM3gNT3PD\n53aA6NAmmcS4A9gsJCmPtwtP1ET8D7AXtK0nwpCOHDUf92+FDxOxEYOlAoGAKt8k\n2vBCgh8HJjvdbE+tABFhCnpLX6cgeZa4qe9Qk1QtJWhLdOh22F7eKZY4iHfS2O4E\nvG+6Ag2ScqxXTe1nnc6zP/AfP7iV8sEkgczUnLW80Mp7tF7vGDY2VnAu9Y0bVZbO\nVa9MFc3H08tH7l/TgxlotOUO+2afvouTwXjxy5UCgYAQLNyU3dT1xpSkRwJUSHWR\nBzj16+cML2dSOWMNc/Ey85UjCW3wqNqEu5yqJTgvHNmaFHboqZeT5MwK/Vq+Wye/\nfs6pAffEQ5Y1qR/DIsjlI7C62S4+Eia32d/PvpkMGVR77b+iz/25QSdDQ1GRqMxH\n5WbTP2h0Ctf8KUXor8cBHw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "open-university-project@open-university-345313.iam.gserviceaccount.com",
+  "client_id": "116976673548171890504",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/open-university-project%40open-university-345313.iam.gserviceaccount.com"
+}
