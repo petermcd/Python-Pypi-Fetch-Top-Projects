@@ -28,8 +28,6 @@ class Controller:
                 downloads=top_package["download_count"],
             )
             self._packages.append(package)
-            print(top_package["download_count"])
-            print(top_package["project"])
 
     def _save_packages(self):
         """Save package data into the database."""
