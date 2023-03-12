@@ -17,7 +17,7 @@ CREATE_TABLE_SQLS = [
         name varchar(256) NOT NULL UNIQUE,
         downloads int(15) UNSIGNED NOT NULL DEFAULT 0,
         version varchar(20) DEFAULT NULL,
-        status int(2) UNSIGNED NOT NULL DEFAULT 0,
+        pypi_info_status int(2) UNSIGNED NOT NULL DEFAULT 0,
         PRIMARY KEY (id)
     )
     ENGINE = INNODB;
@@ -50,6 +50,25 @@ CREATE_TABLE_SQLS = [
     """
     ALTER TABLE package_urls
     ADD CONSTRAINT FK_package_urls_for_package FOREIGN KEY (for_package)
+    REFERENCES packages (id) ON DELETE CASCADE ON UPDATE CASCADE;
+    """,
+    """
+    CREATE TABLE files (
+        id int(11) NOT NULL AUTO_INCREMENT,
+        name varchar(1000) NOT NULL DEFAULT '',
+        lines_of_code int(11) NOT NULL DEFAULT 0,
+        source_lines_of_code int(11) NOT NULL DEFAULT 0,
+        comment_lines int(11) NOT NULL DEFAULT 0,
+        multi_line_comment_lines int(11) NOT NULL DEFAULT 0,
+        blank_lines int(11) NOT NULL DEFAULT 0,
+        for_package int(11) NOT NULL,
+        PRIMARY KEY (id)
+    )
+    ENGINE = INNODB;
+    """,
+    """
+    ALTER TABLE files
+    ADD CONSTRAINT FK_file_for_package FOREIGN KEY (for_package)
     REFERENCES packages (id) ON DELETE CASCADE ON UPDATE CASCADE;
     """,
 ]

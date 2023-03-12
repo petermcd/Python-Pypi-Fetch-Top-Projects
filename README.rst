@@ -30,7 +30,7 @@ directory for the application.
 Environment Variables
 =====================================
 
-The configuration items that can be configued in the .env file can
+The configuration items that can be configured in the .env file can
 also be set as environment variables.
 
 JSON Key

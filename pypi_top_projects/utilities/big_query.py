@@ -14,7 +14,7 @@ TOP_PACKAGES_SQL = """
         AND CURRENT_DATE()
     group by file.project
     ORDER BY download_count DESC
-    LIMIT 1000
+    LIMIT 10000
 """
 
 
