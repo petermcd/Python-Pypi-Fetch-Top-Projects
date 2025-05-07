@@ -1,5 +1,4 @@
 """Class to interact with Google's Big Query."""
-from typing import Optional
 
 from google.cloud import bigquery
 from google.oauth2 import service_account
@@ -23,7 +22,7 @@ class BigQuery:
 
     __slots__ = ["_configuration"]
 
-    def __init__(self, configuration: Optional[Configuration] = None):
+    def __init__(self, configuration: Configuration | None = None):
         """
         Initialize BigQuery.
 
@@ -34,7 +33,7 @@ class BigQuery:
             configuration = Configuration()
         self._configuration = configuration
 
-    def fetch_data(self, sql: Optional[str] = None):
+    def fetch_data(self, sql: str | None = None):
         """
         Fetch data from Google's Big Query.
 
