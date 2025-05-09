@@ -1,5 +1,4 @@
 """Class to handle database interactions."""
-from typing import Optional
 
 import mariadb
 
@@ -86,7 +85,7 @@ class Database:
         "_cursor",
     ]
 
-    def __init__(self, configuration: Optional[Configuration] = None):
+    def __init__(self, configuration: Configuration | None = None):
         """
         Initialize Database.
 

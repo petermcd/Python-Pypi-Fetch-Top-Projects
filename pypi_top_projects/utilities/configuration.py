@@ -1,6 +1,6 @@
 """Class to handle configuration."""
+
 from os import getenv
-from typing import Optional
 
 from dotenv import load_dotenv
 
@@ -20,12 +20,12 @@ class Configuration:
 
     def __init__(self):
         """Initialize Configuration."""
-        self._json_key_path: Optional[str] = None
-        self._database_host: Optional[str] = None
-        self._database_name: Optional[str] = None
-        self._database_password: Optional[str] = None
-        self._database_port: Optional[int] = None
-        self._database_username: Optional[str] = None
+        self._json_key_path: str | None = None
+        self._database_host: str | None = None
+        self._database_name: str | None = None
+        self._database_password: str | None = None
+        self._database_port: int | None = None
+        self._database_username: str | None = None
 
         load_dotenv()
 

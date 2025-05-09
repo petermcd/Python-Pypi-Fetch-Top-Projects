@@ -1,4 +1,5 @@
 """Main runner script."""
+
 from pypi_top_projects.controller import Controller
 
 
